@@ -1,6 +1,6 @@
 import ReactDOM from "react-dom/client";
 import { BrowserRouter, Routes, Route, Navigate } from "react-router-dom";  // Import Navigate
-import {useState, useEffect} from "react";
+import {useState} from "react";
 import About from "./Pages/about";
 import Home from "./Pages/home";
 import Contact from "./Pages/contact";
