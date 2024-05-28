@@ -3,6 +3,7 @@ import { useEffect } from "react";
 const Home = ({setCount}) => {
   useEffect(()=>{
     setCount(prev=>prev+1);
+    // eslint-disable-next-line react-hooks/exhaustive-deps
   },[])
   return (
     <div>
